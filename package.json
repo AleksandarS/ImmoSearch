@@ -1,0 +1,12 @@
+{
+  "name": "immosearch",
+  "version": "0.0.1",
+  "description": "Immobilien search Berlin.",
+  "main": "index.js",
+  "author": "Aleksandar Savic",
+  "dependencies": {
+    "cheerio": "latest",
+    "mongodb": "latest",
+    "request": "latest"
+  }
+}
