@@ -152,7 +152,7 @@ function immoscoutPage(url) {
 }
 
 function immoscoutSingle(element) {
-	var id = element.find('.gallery-container a').attr('href').substring(8);
+	var id = element.find('a').attr('href').substring(8);
 	var url = "https://www.immobilienscout24.de" + element.find('a').attr('href');
 	var price = element.find('.result-list-entry__criteria dl:nth-child(1) dd').text();
 	element.find('.result-list-entry__criteria dl:nth-child(3) dd .onlySmall').remove();
